@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body,html{
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} */
+
+.title{
+  color: rgb(32, 219, 22);
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 25%;
+  top: 15%;
+  transform: translate(-50%,-100%);
+  padding-top: 10rem;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.webgl{
+  position: absolute;
+  top:0;
+  left: 0;
+ 
+  z-index: 1;
+}
